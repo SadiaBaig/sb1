@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(178, 241, 241);
+}
+
+.div1 {
+    width: auto;
+    height: 50px;
+    background-color: blue;
+    padding: 10px;
+    border-image-source: 1px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.column {
+    display: inline;
+}
+
+.header-nav {
+    width: auto;
+    height: 0px;
+    background-color: white;
+    padding: 100px;
+    border-image-source: 1px;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: aqua;
+    outline: aqua;
+    color: blue;
+    padding: 10px 17px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: aqua;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+
+/* Should be removed. Only for demonstration */
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    padding: 100px;
+    text-align: center;
+    background: rgb(43, 221, 162);
+}
